@@ -4,3 +4,5 @@
   gather_facts: false
   tasks:
     - ping:
+    - shell: ls -la
+    - shell: date
